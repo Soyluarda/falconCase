@@ -10,8 +10,8 @@
     - and after all the changes in models.py files you should run the following commands:
        ```
         pip3 install -r requirements.txt
-        Create your secrets file using settings/secrets.py.template file and write your credentials into it.(Add SECRET_KEY first,* if you are             using prod.py file configure your postgres settings)
-        python3 manage.py makemigrations
+        Create your secrets file using settings/secrets.py.template file and write your credentials into it.(Add SECRET_KEY first,* if you are using prod.py file configure your postgres settings)
+        python3 manage.py makemigrations riot  & python3 manage.py makemigrations user
         python3 manage.py migrate
         python3 manage.py runserver
        ```
