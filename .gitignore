@@ -1,0 +1,29 @@
+db.sqlite3
+.DS_Store
+.idea/
+
+*/migrations
+*/__pycache__/*
+
+# Python
+/venv/
+/env/
+./falconcase/__pycache__/
+/falconcase/__pycache__/
+**/__pycache__/
+#!**/__pycache__/
+__pycache__/
+db.sqlite3
+/lib/
+/include/
+
+# Django
+**/migrations/
+#!**/migrations/
+.env
+
+falconcase/secrets.py
+/falconcase/secrets.py
+redis-stable/
+/redis-stable/
+
