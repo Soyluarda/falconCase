@@ -53,6 +53,11 @@
             send parameters as: example,{region:europe,api_key:your_api_key}    
     - send post request to see shared-data;
         -`https://www.ardaben.com/api/shard-data/`
-            send parameters as: example,{region:europe,api_key:your_api_key}    
+            send parameters as: example,{region:europe,api_key:your_api_key} 
+
+    - Serving files as download section
+        -`https://www.ardaben.com/download/test.json`
+        -`https://www.ardaben.com/download/arda_cv.pages`
+         
     
     
