@@ -40,4 +40,19 @@
      
     - To see all others api, documentation:
         - `docs/`
-        
+       
+- ## Testing on server
+  ### All API open for testing.
+    - to see documentation 
+        -`www.ardaben.com/docs/`
+    - send post request to see ranked-data;
+        -`https://www.ardaben.com/api/ranked-data/`
+            send parameters as: example,{region:tr1,api_key:your_api_key}
+    - send post request to see lor-ranked-data;
+        -`https://www.ardaben.com/api/lor-ranked-data/`
+            send parameters as: example,{region:europe,api_key:your_api_key}    
+    - send post request to see shared-data;
+        -`https://www.ardaben.com/api/shard-data/`
+            send parameters as: example,{region:europe,api_key:your_api_key}    
+    
+    
